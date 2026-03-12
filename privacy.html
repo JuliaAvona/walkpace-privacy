@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalkPace - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #2A2421; background: #F5F0EA; padding: 20px; max-width: 720px; margin: 0 auto; }
+        h1 { font-size: 24px; margin-bottom: 4px; color: #D85E43; }
+        h2 { font-size: 18px; margin-top: 24px; margin-bottom: 8px; }
+        p, li { font-size: 15px; margin-bottom: 8px; }
+        ul { padding-left: 20px; margin-bottom: 12px; }
+        .updated { font-size: 13px; color: #888; margin-bottom: 24px; }
+        a { color: #D85E43; }
+    </style>
+</head>
+<body>
+    <h1>WalkPace - Privacy Policy</h1>
+    <p class="updated">Last updated: February 28, 2026</p>
+
+    <p>This Privacy Policy describes how WalkPace ("we", "our", or "us") collects, uses, and protects your information when you use the WalkPace mobile application (the "App").</p>
+
+    <h2>1. What Data We Collect</h2>
+    <p>WalkPace collects the following data to provide and improve the App experience:</p>
+    <ul>
+        <li>Walking session data: duration, intervals completed, rounds, timestamps, and estimated calories burned.</li>
+        <li>App settings and preferences: sound, vibration, timer configurations, and theme preferences.</li>
+        <li>Optional personal information: weight, age, and height, if you choose to provide them for more accurate calorie estimation.</li>
+        <li>Achievement and streak data: badges earned and daily walking streaks.</li>
+        <li>Account information: anonymous user ID or Apple ID email (if you sign in with Apple).</li>
+    </ul>
+
+    <h2>2. Health Data (Apple HealthKit)</h2>
+    <p>If you grant permission, WalkPace integrates with Apple HealthKit to both read and write health data:</p>
+    <ul>
+        <li>We read: step count, walking distance, weight, and height to track your walking progress and provide accurate calorie estimates.</li>
+        <li>We write: workout sessions and active energy burned from your interval walking sessions.</li>
+    </ul>
+    <p>HealthKit integration is entirely optional and can be enabled or disabled at any time in the App settings. Health data accessed through HealthKit is never stored on our servers or shared with third parties.</p>
+
+    <h2>3. Data Storage and Cloud Sync</h2>
+    <p>WalkPace is designed as an offline-first application. All your data is stored locally on your device first.</p>
+    <p>When you are signed in, your data is also synced to our cloud servers (hosted on Supabase) to enable backup and cross-device sync. This includes your walking sessions, statistics, settings, profile, and badges. All cloud data is protected by Row Level Security — only you can access your own data.</p>
+    <p>Authentication sessions are stored securely using the iOS Keychain (SecureStore).</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>WalkPace uses the following third-party services:</p>
+    <ul>
+        <li><strong>Supabase</strong> — cloud database and authentication. Your synced data is stored on Supabase servers.</li>
+        <li><strong>RevenueCat</strong> — subscription management. Processes your purchase transactions and subscription status.</li>
+        <li><strong>Sentry</strong> — crash reporting. Receives anonymous crash reports and device information to help us fix bugs. No personal data is included.</li>
+    </ul>
+    <p>We do not sell, trade, or rent your personal data to any third parties for marketing or advertising purposes.</p>
+
+    <h2>5. Data Security</h2>
+    <p>Your local data is protected by your device's built-in security features (passcode, Face ID, Touch ID). Cloud data is protected by encryption in transit (TLS) and at rest, with Row Level Security ensuring only authenticated users can access their own data. We recommend keeping your device software up to date.</p>
+
+    <h2>6. Data Deletion</h2>
+    <p>You can delete your account and all associated data at any time from Settings &gt; Delete Account. This will permanently remove all your data from both your device and our cloud servers, including walking sessions, statistics, badges, settings, and profile information. This action cannot be undone.</p>
+    <p>If you have an active subscription, please cancel it before deleting your account via Settings &gt; Subscriptions on your device.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>WalkPace is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the App with an updated "Last updated" date. We encourage you to review this policy periodically.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us at:<br>
+    Email: <a href="mailto:support@walkpace.app">support@walkpace.app</a></p>
+</body>
+</html>
